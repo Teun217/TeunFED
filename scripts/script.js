@@ -1,23 +1,18 @@
-// JavaScript Document
-console.log("hi");
+console.log("script.js is geladen");
 
-// agenda
-const nextButtonAgenda = document.querySelector("section:nth-of-type(2) button:nth-of-type(2)");
-const prevButtonAgenda = document.querySelector("section:nth-of-type(2) button:nth-of-type(1)");
-const theListAgenda = document.querySelector("section:nth-of-type(2) ul");
-const anElAgenda = document.querySelector("section:nth-of-type(2) li");
-const elWidthAgenda = anElAgenda.offsetWidth;
+var openButton = document.querySelector("header>button");
+var closeButton = document.querySelector("nav>button");
 
-console.log(elWidthAgenda);
-
-function nextEl() {
-    theListAgenda.scrollLeft = theListAgenda.scrollLeft + elWidthAgenda;
+function open() {
+    var Nav = document.querySelector("nav");
+    Nav.classList.add("open");
 }
 
-function prevEl() {
-    theListAgenda.scrollLeft = theListAgenda.scrollLeft - elWidthAgenda;
+function close() {
+    var Nav = document.querySelector("nav");
+    Nav.classList.remove("open");
 }
 
-nextButtonAgenda.onclick = nextEl;
-prevButtonAgenda.onclick = prevEl;
+openButton.onclick = open;
 
+closeButton.onclick = close;

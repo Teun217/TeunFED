@@ -1,0 +1,80 @@
+/**************/
+/* CSS REMEDY */
+/**************/
+*,
+*::after,
+*::before {
+	box-sizing: border-box;
+}
+
+
+
+
+
+
+/*********************/
+/* CUSTOM PROPERTIES */
+/*********************/
+:root {
+	/* startje */
+}
+
+/* ******** */
+/* products */
+/* ******** */
+
+
+
+
+/****************/
+/* JOUW STYLING */
+/****************/
+
+/* jouw code */
+
+body section:nth-of-type(2) {
+	display: grid;
+	grid-template-columns: repeat(auto-fit, minmax(min(100%, 14em), 1fr));
+	gap: 1em;
+	padding: 2em;
+}
+
+body section:nth-of-type(2) article {
+	position: relative;
+}
+
+body section:nth-of-type(2) article img:nth-of-type(1) {
+	position: relative;
+	top: 0;
+	left: 0;
+}
+
+body section:nth-of-type(2) article img:nth-of-type(2) {
+	position: absolute;
+	top: 0;
+	left: 0;
+	opacity: 0;
+	transition: 0.25s;
+}
+
+body section:nth-of-type(2) article img:hover {
+	opacity: 1;
+	transition: 0.25s;
+}
+
+body section:nth-of-type(2) img {
+	width: 100%;
+	aspect-ratio: 1/1;
+	display: block;
+}
+
+body section:nth-of-type(2) button {
+	background: none;
+	border: none;
+	color: var(--color-secondary);
+	padding: 0;
+}
+
+body section:nth-of-type(2) button:hover {
+	color: var(--color-primary);
+}
