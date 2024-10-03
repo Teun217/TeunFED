@@ -116,11 +116,7 @@ strong {
 
 /* TEXT */
 
-* {
-	font-family: "openSans";
-	font-weight: 400;
-	font-size: 15px;
-}
+* {}
 
 h1,
 h2,
@@ -131,6 +127,9 @@ th,
 td {
 	color: var(--color-secondary);
 	margin: 0;
+	font-family: "openSans";
+	font-weight: 400;
+	font-size: 15px;
 }
 
 h1 {
