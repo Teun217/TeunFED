@@ -15,12 +15,6 @@
 /*********************/
 /* CUSTOM PROPERTIES */
 /*********************/
-:root {
-	/* startje */
-	/* --color-primary: #ffc8dd;
-	--color-secondary: #3200e1; */
-}
-
 
 
 
@@ -217,10 +211,6 @@ table {
 	font-size: 1em;
 }
 
-main article:nth-child(2) {
-	text-align: right;
-}
-
 
 table tr td {
 	padding: 0.1em;
@@ -312,6 +302,7 @@ section:nth-of-type(3) ul li article p {
 	display: -webkit-box;
 	-webkit-box-orient: vertical;
 	-webkit-line-clamp: 4;
+	line-clamp: 4;
 	overflow: hidden;
 	line-height: 1.5em;
 	max-height: 6em;
