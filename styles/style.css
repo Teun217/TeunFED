@@ -225,10 +225,18 @@ header nav.open {
 	animation-fill-mode: forwards;
 }
 
-header nav button span {
-	width: 20px;
-	height: 20px;
-	background-color: black;
+header nav button {
+	background-color: #ffc8dd;
+	width: 3em;
+	height: 3em;
+	padding: 0;
+	border: none;
+}
+
+header nav button img {
+	opacity: 1;
+	width: auto;
+	height: auto;
 }
 
 

@@ -35,15 +35,15 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
   <summary>uitwerken voor kick-off werkgroep</summary>
 
   ### Je opdracht:
-  link naar de website die je gaat namaken óf de naam/omschrijving van je eigen ontwerp
+ [link naar de website die je gaat namaken óf de naam/omschrijving van je eigen ontwerp](https://www.lab111.nl/)
 
   #### Screenshot(s) van de eerste pagina (small screen): 
-  hier de naam van de pagina  
-  <img src="readme-images/dummy-plaatje.jpg" width="375px" alt="omschrijving van de pagina">
+  LAB111 - home
+  <img src="./readme-images/pagina1breakdown.jpg" width="375px" alt="omschrijving van de pagina">
 
   #### Screenshot(s) van de tweede pagina (small screen):
   hier de naam van de pagina  
-  <img src="readme-images/dummy-plaatje.jpg" width="375px" alt="omschrijving van de pagina">
+  <img src="./readme-images/lab111winkelBreakdown.jpg" width="375px" alt="omschrijving van de pagina">
  
 </details>
 
@@ -54,8 +54,11 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
 <details>
   <summary>uitwerken na test in 2<sup>e</sup> werkgroep</summary>
 
+
+  <img src="./readme-images/WCAGchecklist1.jpg">
   ### Bevindingen
-  Lijst met je bevindingen die in de test naar voren kwamen:
+  De site van lab111 mist een h1 op de homepage en gebruikt niet altijd list elementen waar deze nodig zijn.
+  Ook heeft de site geen skiplink. De focusorder klopt niet altijd en dark/lightmode is niet supported.
 
 </details>
 
@@ -70,10 +73,8 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
   <img src="readme-images/pagina1breakdown.jpg" width="375px" alt="breakdown van de hele pagina">
 
   ### dynamisch deel (bijv menu): 
-  <img src="readme-images/dummy-plaatje.jpg" width="375px" alt="breakdown van een dynamisch deel">
+  <img src="./readme-images/breakdown_menu.jpg" width="375px" alt="breakdown van een dynamisch deel">
 
-  ### wellicht nog een dynamisch deel (bijv filter): 
-  <img src="readme-images/dummy-plaatje.jpg" width="375px" alt="breakdown van nog een dynamisch deel">
 
 </details>
 
@@ -84,33 +85,13 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
 ## Voortgang 1 (week 2)
 
 <details>
-  <summary>uitwerken voor 1<sup>e</sup> voortgang</summary>
-
-  ### Stand van zaken
-  hier dit ging goed & dit was lastig (neem ook screenshots op van delen van je website en code)
-
-
-  ### Agenda voor meeting
-  samen met je groepje opstellen
-
-  | student 1      | student 2          | student 3    | student 4        |
-  | ---            | ---                | ---          | ---              |
-  | dit bespreken  | en dit             | en ik dit    | en dan ik dat    |
-  | en dat ook nog | dit als er tijd is | nog een punt | dit wil ik zeker |
-  | ...            | ...                | ...          | ...              |
-
-  vragen voor meeting:
-  Als ik een tekst heb die afgekapt wordt met "lees meer" plaats je dan wel je volledige tekst?
-
+  <summary>uitwerken voor 1<sup>e</sup> voortgang</summary>S
 
   ### Verslag van meeting
   hier na afloop snel de uitkomsten van de meeting vastleggen
 
-  - punt 1
-  - punt 2
-  - nog een punt
-  - ...
-
+  - Ik moet de html van mijn 1ste pagina afmaken.
+  - Van het werk van anderen viel het op dat ik erg goed moet letten op het netjes houden van mijn html en css.
 </details>
 
 
@@ -120,30 +101,14 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
 ## Voortgang 2 (week 3)
 
 <details>
-  <summary>uitwerken voor 2<sup>e</sup> voortgang</summary>
-
-  ### Stand van zaken
-  hier dit ging goed & dit was lastig (neem ook screenshots op van delen van je website en code)
-
-
-  ### Agenda voor meeting
-  samen met je groepje opstellen
-
-  | student 1      | student 2          | student 3    | student 4        |
-  | ---            | ---                | ---          | ---              |
-  | dit bespreken  | en dit             | en ik dit    | en dan ik dat    |
-  | en dat ook nog | dit als er tijd is | nog een punt | dit wil ik zeker |
-  | ...            | ...                | ...          | ...              |
-
+  <summary>uitwerken voor 2<sup>e</sup> voortgang</summary>S
 
   ### Verslag van meeting
   hier na afloop snel de uitkomsten van de meeting vastleggen
 
-  - punt 1
-  - punt 2
-  - nog een punt
-- ...
-
+  - Als code niet werkt, checken op typo's de code.
+  - Niet voor elke tabelcel een th gebruiken, dit is alleen voor de heads van de tabel.
+  - In dezelfde week samen met Sanne een carousel gemaakt.
 </details>
 
 
@@ -154,9 +119,14 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
 
 <details>
   <summary>uitwerken na test in 9<sup>e</sup> werkgroep</summary>
+  <img src="./readme-images/WCAGchecklist2.jpg">
+
 
   ### Bevindingen
-  Lijst met je bevindingen die in de test naar voren kwamen (geef ook aan wat er verbeterd is):
+  Ik heb de structuur van de html verbeterd, hierdoor is er beter doorheen te navigeren.
+  Beide paginas hebben een h1 bijvoorbeeld.
+  Dark mode is nu supported en de dingen die in items moeten zitten in list items.
+  Ik heb getwijfeld rondom de items in de shop, maar na overleg bleek dat niet perse te hoeven.
 
 </details>
 
@@ -167,29 +137,12 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
 ## Voortgang 3 (week 4)
 
 <details>
-  <summary>uitwerken voor 3<sup>e</sup> voortgang</summary>
-
-  ### Stand van zaken
-  hier dit ging goed & dit was lastig (neem ook screenshots op van delen van je website en code)
-
-
-  ### Agenda voor meeting
-  samen met je groepje opstellen
-
-  | student 1      | student 2          | student 3    | student 4        |
-  | ---            | ---                | ---          | ---              |
-  | dit bespreken  | en dit             | en ik dit    | en dan ik dat    |
-  | en dat ook nog | dit als er tijd is | nog een punt | dit wil ik zeker |
-  | ...            | ...                | ...          | ...              |
-
+  <summary>uitwerken voor 3<sup>e</sup> voortgang</summary>S
 
   ### Verslag van meeting
   hier na afloop snel de uitkomsten van de meeting vastleggen
 
-  - punt 1
-  - punt 2
-  - nog een punt
-  - ...
+ - Ik heb gecheckt of ik meerder js bestandjes mocht aanmaken, dat mocht.
 
 </details>
 
@@ -203,19 +156,30 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
   <summary>uitwerken voor eindgesprek</summary>
 
   ### Je uitkomst - karakteristiek screenshots:
-  <img src="readme-images/dummy-plaatje.jpg" width="375px" alt="uitomst opdracht 1">
+  <img src="./readme-images/carousel_met_tabel.jpg">
+  <img src="./readme-images/carousel_tekst_en_image.jpg"> 
+  <img src="./readme-images/responsive_shop.jpg">
 
 
   ### Dit ging goed/Heb ik geleerd: 
   Korte omschrijving met plaatjes
 
-  <img src="readme-images/dummy-plaatje.jpg" width="375px" alt="top">
+  Ik heb veel geleerd over hoe specifiek je elementen kan aanspreken zonder het gebruik van classes.
+  Verder heb ik geleerd over grid en dit wil ik blijven gebruiken.
 
+  <img src="/readme-images/grid.jpg" width="375px" alt="top">
+
+  Ook viel het mij echt op hoe specifiek je elementen kan selecteren met de css selectoren.
 
   ### Dit was lastig/Is niet gelukt:
-  Korte omschrijving met plaatjes
+  Het font geïntporteerd krijgen ging niet goed. Dus heb ik het op de manier geïnporteerd die illegaal is in europa.
+  Verder denk ik dat ik vooral aan liep tegen uitstel problemen.
 
-  <img src="readme-images/dummy-plaatje.jpg" width="375px" alt="bummer">
+  <img src="/readme-images/font.jpg" width="375px" alt="bummer">
+
+  Ik vond het lastig om tijdens de feedback rondes vragen te stellen.
+  Veel kon ik zelf vinden op het internet of tussendoor in de medialounge vragen aan Sanne of aan vrienden.
+  Ik had vooral het gevoel dat ik meer tijd in het coden moest stoppen.
 </details>
 
 
@@ -231,8 +195,14 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
   Nb. ChatGpT en andere AI horen er ook bij.
   Nb. Vermeld de bronnen ook in je code.
 
-  1. bron 1
-  2. bron 2
-  3. ...
+ 		snapalign:
+		https://developer.mozilla.org/en-US/docs/Web/CSS/scroll-snap-type
+		https://developer.mozilla.org/en-US/docs/Web/CSS/scroll-snap-align
 
+    copilot gebruikt:
+		prompt: I want text to cut off after a specific amount of lines what should the css be?
+
+    Verder heb ik copilot regelmatig laten checken op typfoutjes met prompts zoals:
+    This code is not working, is there a typo in the code?
+ 
 </details>
